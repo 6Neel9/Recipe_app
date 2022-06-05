@@ -175,11 +175,11 @@ const AppComponent = () => {
     <Container>
       <Header>
         <AppName>
-          <RecipeImage src="/react-recipe-finder/hamburger.svg" />
+          <RecipeImage src="../react-recipe-finder/hamburger.svg" />
           Recipe App
         </AppName>
         <SearchBox>
-          <SearchIcon src="/react-recipe-finder/search-icon.svg" />
+          <SearchIcon src="../react-recipe-finder/search-icon.svg" />
           <SearchInput
             placeholder="Search Recipe"
             value={searchQuery}
