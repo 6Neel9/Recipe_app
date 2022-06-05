@@ -181,7 +181,7 @@ const AppComponent = () => {
         <SearchBox>
           <SearchIcon src="../react-recipe-finder/search-icon.svg" />
           <SearchInput
-            placeholder="Search Recipe"
+            placeholder="🔍Search Recipe"
             value={searchQuery}
             onChange={onTextChange}
           />
