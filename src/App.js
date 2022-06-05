@@ -131,12 +131,12 @@ const RecipeImage = styled.img`
   height: 36px;
   margin: 15px;
 `;
-const Placeholder = styled.img`
-  width: 120px;
-  height: 120px;
-  margin: 200px;
-  opacity: 50%;
-`;
+// const Placeholder = styled.img`
+//   width: 120px;
+//   height: 120px;
+//   margin: 200px;
+//   opacity: 50%;
+// `;
 const SearchInput = styled.input`
   color: black;
   font-size: 16px;
@@ -176,7 +176,7 @@ const AppComponent = () => {
       <Header>
         <AppName>
           <RecipeImage src="/react-recipe-finder/hamburger.svg" />
-          Recipe Finder
+          Recipe App
         </AppName>
         <SearchBox>
           <SearchIcon src="/react-recipe-finder/search-icon.svg" />
@@ -193,7 +193,7 @@ const AppComponent = () => {
             <RecipeComponent key={index} recipe={recipe.recipe} />
           ))
         ) : (
-          <Placeholder src="/react-recipe-finder/hamburger.svg" />
+          <img src="https://img.freepik.com/free-vector/fast-food-black-background-poster_1284-14589.jpg?w=2000" alt="description"/>
         )}
       </RecipeListContainer>
     </Container>
